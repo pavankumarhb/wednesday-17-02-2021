@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+*{
+    box-sizing: border-box;
+    font-family: raleway;
+    
+}
+.main-header{
+    background-color: rgba(0,0,0, .6);
+    background-image: url("Images/4.jpeg");
+    
+    background-repeat: inherit;
+    padding: 8%;
+}
+.main-nav {
+    color:red;
+    text-align: center;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(211, 18, 66, 0.755)
+}
+
+.nav li{
+    display: inline;
+    font-family: "Metal Mania";
+    padding: 0 5%;
+    font-size: 2em;
+    
+}
+.magic-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Metal Mania";
+    color: blue;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer {
+    background-color: #56CCF2;
+    color: rgb(49, 24, 138);
+    padding: .25em 0;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+    
+}
+.footer-nav img {
+   
+    height: 30px;
+    width: 30px;
+    
+}
+
+.in{
+    font-size: 1em;
+    font-style: italic;
+    font-family: "Metal Maina";
+    max-width: 700px;
+    text-align: center;
+    
+    margin: 0 auto;
+    
+    
+    
+}
+
